@@ -1,1 +1,28 @@
 * Consult-AppleMusic -- Consulting AppleMusic Libraries
+A package to incorporate AppleMusic Playlists into consult, and control the AppleMusic inside the Emacs.
+This allows to choose a playlist or a song to play, play/pause and play next/prev songs.
+
+** Usage
+Call function =consult-applemusic-songs=, =consult-applemusic-playlists= to choose the playlists or songs to play.
+Call function =applemusic-toggle-play= to play/pause the music.
+Call function =applemusic-play-next= to play the next song.
+Call function =applemusic-play-prev= to play/pause the previous song.
+
+** Installation
+
+*** Melpa
+This package is not available on Melpa (yet, trying to figure out).
+
+*** Straight
+The straight way is with the following code:
+#+begin_src emacs-lisp
+(use-package consult-applemusic
+  :straight (consult-applemusic :type git :host github :repo "dezzw/consult-applemusic"))
+#+end_src
+
+*** Directly
+The direct way is to clone this repo into your load-path and require =consult-applemusic=.
+
+** WHAT'S NEXT
+- [ ] Add annotation for each songs about their artist and album.
+- [ ] Add more functionality (e.g. search and play a song not in your library)
