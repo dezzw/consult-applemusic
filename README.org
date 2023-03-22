@@ -1,11 +1,15 @@
 * Consult-AppleMusic -- Consulting AppleMusic Libraries
 A package to incorporate AppleMusic Playlists into consult, and control the AppleMusic inside the Emacs.
+
 This allows to choose a playlist or a song to play, play/pause and play next/prev songs.
 
 ** Usage
 Call function =consult-applemusic-songs=, =consult-applemusic-playlists= to choose the playlists or songs to play.
+
 Call function =applemusic-toggle-play= to play/pause the music.
+
 Call function =applemusic-play-next= to play the next song.
+
 Call function =applemusic-play-prev= to play/pause the previous song.
 
 ** Installation
